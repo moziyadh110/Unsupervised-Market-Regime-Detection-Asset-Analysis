@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+dist
+build
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data files (copied separately)
+data/*.csv
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Results
+results/plots/*.png
+results/plots/*.pdf
+results/analysis/*.csv
+
+# Virtual environments
+venv
+env
+ENV
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (not needed in container)
+*.md
+!README.md
+
+# Tests coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.log
+*.tmp

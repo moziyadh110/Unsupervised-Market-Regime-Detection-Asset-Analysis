@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    container_name: geopolitical-risk-analysis
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount data directories for persistence
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
+      - ./results:/app/results
+      - ./models:/app/models
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+    
+  # Optional: Service to run tests
+  tests:
+    build: .
+    container_name: geopolitical-risk-tests
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+    command: pytest tests/ -v --cov=src
+    profiles:
+      - testing
+
+  # Optional: Service to run Python scripts
+  python:
+    build: .
+    container_name: geopolitical-risk-python
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+      - ./models:/app/models
+      - ./results:/app/results
+    command: python
+    stdin_open: true
+    tty: true
+    profiles:
+      - dev
