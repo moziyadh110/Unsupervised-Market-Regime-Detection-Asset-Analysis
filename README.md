@@ -231,6 +231,7 @@ Regime 3 (Inflation):       2,719 days (29.3%)
 - **Geopolitical Risk Index (GPR):** [MATTEO IACOVIELLO'S WEBSITE](https://www2.bc.edu/matteo-iacoviello/gpr.htm)
 - **Economic Indicators:** FRED Database, Federal Reserve
 - **Market Data:** Yahoo Finance, CBOE (VIX)
+- **Kaggle:**  (https://www.kaggle.com/datasets/shreyanshdangi/gold-silver-price-vs-geopolitical-risk-19852025/data)
 
 ## 📖 References
 
@@ -248,14 +249,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mohamed Ziyadh Mohamed**
 - Project: Impact of Geopolitical Risks on Gold & Silver Prices
-- Course: Data Mining & Analysis (CSCI 602)
-- Institution: [Your University]
-
-## 📧 Contact & Support
-
-For questions, suggestions, or improvements:
-- Open an [Issue](https://github.com/yourusername/geopolitical-risk-analysis/issues)
-- Submit a [Pull Request](https://github.com/yourusername/geopolitical-risk-analysis/pulls)
+- Course: Introduction to Data Science (MSML-602)
+- Institution: University of Maryland - College Park
 
 ## 🙏 Acknowledgments
 
