@@ -231,7 +231,7 @@ Regime 3 (Inflation):       2,719 days (29.3%)
 - **Geopolitical Risk Index (GPR):** [MATTEO IACOVIELLO'S WEBSITE](https://www2.bc.edu/matteo-iacoviello/gpr.htm)
 - **Economic Indicators:** FRED Database, Federal Reserve
 - **Market Data:** Yahoo Finance, CBOE (VIX)
-- **Kaggle:**  (https://www.kaggle.com/datasets/shreyanshdangi/gold-silver-price-vs-geopolitical-risk-19852025/data)
+- **Kaggle:**  https://www.kaggle.com/datasets/shreyanshdangi/gold-silver-price-vs-geopolitical-risk-19852025/data
 
 ## 📖 References
 
